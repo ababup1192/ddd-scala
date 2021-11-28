@@ -1,0 +1,30 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/mirai.watanabe/Desktop/ddd-scala/src/main/scala/Main.scala:18:13 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m    [33mthis[0m.copy(screeningStatus = ScreeningStatus.ADOPTED)[0m
+[0m[[0m[31merror[0m] [0m[0m   |             [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |             end of statement expected but '(' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/mirai.watanabe/Desktop/ddd-scala/src/main/scala/Main.scala:9:42 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m[33mcase class[0m [35mScreening[0m [33mprivate[0m([36mscreeningId[0m: [35mScreeningId[0m, [36mpositionId[0m: [35mPositionId,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                                          [31m^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                                          Not found: type ScreeningId[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/mirai.watanabe/Desktop/ddd-scala/src/main/scala/Main.scala:9:67 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m[33mcase class[0m [35mScreening[0m [33mprivate[0m([36mscreeningId[0m: [35mScreeningId[0m, [36mpositionId[0m: [35mPositionId,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                                                                   [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                                                Not found: type PositionId[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/mirai.watanabe/Desktop/ddd-scala/src/main/scala/Main.scala:10:43 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m                             interviewSeq: [35mInterviewSeq[0m, screeningStatus: ScreeningStatus, applyDateTime: LocalDateTime):[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                           [31m^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                           Not found: type InterviewSeq[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/mirai.watanabe/Desktop/ddd-scala/src/main/scala/Main.scala:10:74 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m                             interviewSeq: [35mInterviewSeq[0m, screeningStatus: ScreeningStatus, applyDateTime: LocalDateTime):[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                          [31m^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                         Not found: type ScreeningStatus[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/mirai.watanabe/Desktop/ddd-scala/src/main/scala/Main.scala:5:18 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m  [33mval[0m [36mscreening[0m = Screening(PositionId())[0m
+[0m[[0m[31merror[0m] [0m[0m  |                  [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |[33mmethod[0m [35mapply[0m cannot be accessed as a member of Screening.type from module class Main$package$.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/mirai.watanabe/Desktop/ddd-scala/src/main/scala/Main.scala:5:28 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m  [33mval[0m [36mscreening[0m = Screening(PositionId())[0m
+[0m[[0m[31merror[0m] [0m[0m  |                            [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                            Not found: PositionId[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
